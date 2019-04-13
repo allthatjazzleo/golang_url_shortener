@@ -11,6 +11,7 @@ WORKDIR /go/src/app
 
 # Go dep!
 RUN go get -u github.com/golang/dep/...
+RUN dep init
 RUN dep ensure
 
 # Build my app
