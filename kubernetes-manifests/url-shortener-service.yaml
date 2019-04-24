@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: url-shortener
+  labels:
+    app: url-shortener
+    tier: api
+spec:
+  type: LoadBalancer
+  selector:
+    app: url-shortener
+    tier: api
+  ports:
+  - port: 80
+    targetPort: http

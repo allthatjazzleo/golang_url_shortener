@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cloudcode",
+      "request": "attach",
+      "name": "Debug on Kubernetes (url-shortener)",
+      "language": "Go",
+      "debugPort": 3000,
+      "localRoot": "${workspaceFolder}/src/app",
+      "remoteRoot": "/src/app",
+      "podSelector": {
+        "app": "url-shortener",
+        "tier": "api"
+      }
+    }
+  ]
+}

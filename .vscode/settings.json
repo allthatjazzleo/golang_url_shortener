@@ -1,0 +1,6 @@
+{
+  "cloudcode.profile-cluster-map": {
+    "[default]": "gke_fresh-tape-232705_asia-east2-a_cloudcode",
+    "cloudbuild": "gke_fresh-tape-232705_asia-east2-a_cloudcode"
+  }
+}
