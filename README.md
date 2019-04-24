@@ -2,11 +2,11 @@
 
 ## install package
 ```
-$ cd src/app && dep ensure
+$ GO111MODULE=on go mod tidy
 ```
 ## Build binary file and Run
 ```
-$ cd src/app && go install
-$ ./bin/app
+$ cd cmd/app && go build 
+$ ./app
 ```
 ## 
