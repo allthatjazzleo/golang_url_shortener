@@ -1,4 +1,2 @@
-pkg/*
-!pkg/.gitkeep 
 src/app/vendor/*
 !src/app/vendor/.gitkeep
